@@ -1,0 +1,100 @@
+.card{
+    height: 780px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+body{
+    background-color: rgb(206, 206, 206);
+    transition: background-color 0.5s;
+}
+
+.bi{
+    padding-right: 5px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-style: oblique;
+    color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(73, 73, 73);
+    margin-top: 90px;
+
+}
+ 
+nav{
+    border-bottom: 2px dashed rgb(73, 73, 73);
+    margin-bottom: 20px;
+
+}
+
+.btn{
+    background-color: rgb(26, 26, 26);
+    border: 2px dotted rgb(135, 135, 135);
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(59, 59, 59);
+    border: 2px dotted rgb(178, 177, 177);
+    color: white;
+}
+
+.navbar-brand{
+    color: brown;
+    font-weight: 500;
+}
+
+
+
+
+  @keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  .elementoo {
+    animation: pulsar 2s ease-in-out;
+  }
+
+  .elementoo {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .elementoo:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+  }
+
+  .elemento {
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+  }
+
+  
+  .elemento:hover {
+    transform: scale(1.2);
+    z-index: 1;
+  }
+
+  .elementooo{
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+  }
+
+  .elementooo:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  footer {
+    background-color: #fff;
+    color: #333; /* Cinza escuro */
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+  }

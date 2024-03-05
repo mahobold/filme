@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(251, 229, 233);
+    color: rgb(117, 5, 64);
+}
+
+.f{
+    border: 2px solid rgb(117, 5, 64);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.btn{
+    background-color:rgb(117, 5, 64) ;
+    border: rgb(117, 5, 64);
+}
+.btn:hover{
+    background-color:rgb(117, 5, 64) ;
+    border: rgb(251, 229, 233);
+}
+
