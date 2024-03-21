@@ -20,7 +20,7 @@ function gerarCorAleatoria() {
   }
 
   // Adiciona um ouvinte de evento ao botão
-  document.getElementById('botao').addEventListener('click', mudarCorDeFundo);
+  document.getElementsByClassName('botao').addEventListener('click', mudarCorDeFundo);
 
   function adicionarCard() {
     // Cria um elemento de card
